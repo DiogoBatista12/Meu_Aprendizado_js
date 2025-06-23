@@ -4,7 +4,7 @@ let contatos = {
 };
 
 let x = true;
-console.log(typeof contatos.senha);
+
 while (x) {
   console.log("ENTRADA");
   let entrada = prompt("DIGITE SEU NOME: ");
@@ -15,9 +15,14 @@ while (x) {
     continue;
   }
 
+  if(entrada.length < 3){
+    alert("Seu nome tem que ser maior que três letras");
+    continue;
+  }
+
   if (entrada === contatos.nome && entrada2 === contatos.senha) {
     console.log("VOCÊ PODE ENTRAR");
-    setTimeout(function () {
+    setTimeout(function (){
       alert("SEJÁ BEM VINDO!!!");
       window.location.href = "https://github.com/DiogoBatista12";
     }, 1000);

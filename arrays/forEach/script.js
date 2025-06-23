@@ -9,3 +9,4 @@ nums.forEach(num => {
 nums.forEach(num => {
     console.log(` ${num * 2}`);
 });
+

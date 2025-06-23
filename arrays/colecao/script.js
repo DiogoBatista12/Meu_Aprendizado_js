@@ -7,17 +7,17 @@ let pessoa = {
     }
 }
 
-console.log(`Eu me chamo ${pessoa.nome}, tenho ${pessoa.idade} anos e trabalho sendo ${pessoa.profissao} e esse foi meu primeiro código ${pessoa.programar()}`);
+console.log(`Eu me chamo ${pessoa.nome}, tenho ${pessoa.idade} anos e trabalho sendo ${pessoa.profissao} e esse foi minha primeira saída:  ${pessoa.programar()}`);
 
 // ARRAY => [];
 // OBJECT => {};
 
 let familia = {
-    pai: "Damião",
-    mae: "Marise",
-    irmaoVelho: "Danilo",
-    irmaoMeio: "David",
-    irmaoNovo: "Diogo"
+    pai: "Casemiro",
+    mae: "Daniela",
+    irmaoVelho: "Everton",
+    irmaoMeio: "Caio",
+    irmaoNovo: "Junior"
 }
 
 console.log(`Esse é meu pai: ${familia.pai}`);
